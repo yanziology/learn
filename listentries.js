@@ -23,16 +23,18 @@ s=entry.content.$t;a=s.indexOf("<img");b=s.indexOf("src=\"",a);c=s.indexOf("\"",
 thumburl=d;} else thumburl='http://2.bp.blogspot.com/-fyukB_HLG_w/UbManI7ySAI/AAAAAAAADsM/brwpVvFPtOM/s1600/nothumb.jpg';
 }*/
 
-document.write('<div class="sitemap-container">'+'<ul id="bloglist">'+'<li>');
+//document.write('<div class="sitemap-container">'+'<ul id="bloglist">'+'<li>');
 
 
+//var towrite='';var flag=0;
+//document.write('<div class="posttitle">'+'<a href="'+posturl+'">'+posttitle+'</a>'+'</div>');
 
-var towrite='';var flag=0;
-document.write('<div class="posttitle">'+'<a href="'+posturl+'">'+posttitle+'</a>'+'</div>');
-
-document.write('</span></li>'+'</ul>'+'</div>');
-
-document.write('<div class="fix"></div>');
+//document.write('</span></li>'+'</ul>'+'</div>');
+document.write('<ul id="bloglist">'+'<li>');
+document.write('<a href="'+posturl+'">'+posttitle+'</a>'+'</li>');
 
 }
+
+document.write('</ul>';
+  
 }
