@@ -25,6 +25,8 @@ document.write('<div class="sitemap-container">'+'<ul id="bloglist">'+'<li>');
 //var towrite='';var flag=0;
 document.write('<div class="posttitle">'+'<a href="'+posturl+'">'+posttitle+'</a>'+'</div>');
 document.write('</span></li>'+'</ul>'+'</div>');
-document.write('<div class="fix"></div>');
+
+document.write('<div>HERE:'+'<a href="'+posturl+'">'+posttitle+'</a>'+'</div>');
+//document.write('<div class="fix"></div>');
 }
 }
